@@ -1,0 +1,13 @@
+.net-btn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.net-btn:hover {
+  background: #1d4ed8;
+}
