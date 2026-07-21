@@ -1,0 +1,109 @@
+/* Direction */
+
+.nx-row {
+    flex-direction: row;
+}
+
+.nx-col {
+    flex-direction: column;
+}
+
+.nx-row-rev {
+    flex-direction: row-reverse;
+}
+
+.nx-col-rev {
+    flex-direction: column-reverse;
+}
+
+/* Wrap */
+
+.nx-wrap {
+    flex-wrap: wrap;
+}
+
+.nx-nowrap {
+    flex-wrap: nowrap;
+}
+
+/* Justify Content */
+
+.njust-s {
+    justify-content: flex-start;
+}
+
+.njust-c {
+    justify-content: center;
+}
+
+.njust-end {
+    justify-content: flex-end;
+}
+
+.njust-btw {
+    justify-content: space-between;
+}
+
+.njust-around {
+    justify-content: space-around;
+}
+
+.njust-even {
+    justify-content: space-evenly;
+}
+
+/* Align Items */
+
+.nitem-s {
+    align-items: flex-start;
+}
+
+.nitems-c {
+    align-items: center;
+}
+
+.nitems-end {
+    align-items: flex-end;
+}
+
+.nitems-str {
+    align-items: stretch;
+}
+
+.nitems-base {
+    align-items: baseline;
+}
+
+/* Align Self */
+
+.nself-s {
+    align-self: flex-start;
+}
+
+.nself-c {
+    align-self: center;
+}
+
+.nself-end {
+    align-self: flex-end;
+}
+
+/* Flex Grow */
+
+.ngrow {
+    flex-grow: 1;
+}
+
+.nnogrow {
+    flex-grow: 0;
+}
+
+/* Flex Shrink */
+
+.nshri {
+    flex-shrink: 1;
+}
+
+.nnoshri {
+    flex-shrink: 0;
+}

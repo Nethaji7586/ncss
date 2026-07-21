@@ -1,0 +1,33 @@
+/* Display */
+
+.ndblk {
+    display: block;
+}
+
+.ndline {
+    display: inline;
+}
+
+.ndline-blk {
+    display: inline-block;
+}
+
+.ndx {
+    display: flex;
+}
+
+.ndline-x {
+    display: inline-flex;
+}
+
+.nd-grid {
+    display: grid;
+}
+
+.nd-line-grid {
+    display: inline-grid;
+}
+
+.nd-none {
+    display: none;
+}

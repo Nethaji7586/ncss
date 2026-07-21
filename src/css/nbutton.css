@@ -1,13 +1,7 @@
 .nbtn {
-  background: #eb2525;
-  color: white;
   padding: 12px 25px;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: 0.3s;
-}
-
-.nbtn:hover {
-  background: #1d4ed8;
+  transition: 0.3s ease;
 }

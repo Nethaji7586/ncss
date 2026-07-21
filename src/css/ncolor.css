@@ -1,0 +1,56 @@
+:root {
+    --nblue: #3F22EC;
+    --nsky: #55D6FF;
+    --nred: #ff1842;
+    --ngreen: #03E29D;
+    --nyellow: #EFCA62;
+    --norange: #FF9F43;
+    --npurple: #7B2FF7;
+    --npink: #F45BDE;
+    --nblack: #0e0f16;
+    --ngray: #8D99AE;
+    --nwhite: #FFFFFF;
+    --nteal: #00D4B8;
+
+
+    --nblue-dark: #2C15D8;
+    --nsky-dark: #22C8FF;
+    --nred-dark: #E6395F;
+    --ngreen-dark: #00C784;
+    --nyellow-dark: #E6B93C;
+    --norange-dark: #F57C00;
+    --npurple-dark: #651FFF;
+    --npink-dark: #EC3CBF;
+    --nblack-dark: #111827;
+    --ngray-dark: #6B7280;
+    --nwhite-dark: #F8FAFC;
+    --nteal-dark: #00BFA5;
+}
+
+.nblue { color: var(--nblue); }
+.nsky { color: var(--nsky); }
+.nred { color: var(--nred); }
+.ngreen { color: var(--ngreen); }
+.nyellow { color: var(--nyellow); }
+.norange { color: var(--norange); }
+.npurple { color: var(--npurple); }
+.npink { color: var(--npink); }
+.nblack { color: var(--nblack); }
+.ngray { color: var(--ngray); }
+.nwhite { color: var(--nwhite); }
+.nteal { color: var(--nteal); }
+
+/* Background Colors */
+
+.nbg-blue { background-color: var(--nblue); }
+.nbg-sky { background-color: var(--nsky); }
+.nbg-red { background-color: var(--nred); }
+.nbg-green { background-color: var(--ngreen); }
+.nbg-yellow { background-color: var(--nyellow); }
+.nbg-orange { background-color: var(--norange); }
+.nbg-purple { background-color: var(--npurple); }
+.nbg-pink { background-color: var(--npink); }
+.nbg-black { background-color: var(--nblack); }
+.nbg-gray { background-color: var(--ngray); }
+.nbg-white { background-color: var(--nwhite); }
+.nbg-teal { background-color: var(--nteal); }

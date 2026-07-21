@@ -1,0 +1,123 @@
+/* ==========================================
+   Border Width
+========================================== */
+
+.nbrd {
+    border: 1px solid;
+}
+
+.nbrd-0 {
+    border: none;
+}
+
+.nbrd-1 {
+    border: 1px solid;
+}
+
+.nbrd-2 {
+    border: 2px solid;
+}
+
+.nbrd-3 {
+    border: 3px solid;
+}
+
+.nbrd-4 {
+    border: 4px solid;
+}
+
+.nbrd-5 {
+    border: 5px solid;
+}
+
+/* ==========================================
+   Border Side
+========================================== */
+
+.nbrd-top {
+    border-top: 1px solid;
+}
+
+.nbrd-bottom {
+    border-bottom: 1px solid;
+}
+
+.nbrd-left {
+    border-left: 1px solid;
+}
+
+.nbrd-right {
+    border-right: 1px solid;
+}
+
+/* ==========================================
+   Border Colors
+========================================== */
+
+.nbrd-blue {
+    border-color: var(--nblue);
+}
+
+.nbrd-sky {
+    border-color: var(--nsky);
+}
+
+.nbrd-red {
+    border-color: var(--nred);
+}
+
+.nbrd-green {
+    border-color: var(--ngreen);
+}
+
+.nbrd-yellow {
+    border-color: var(--nyellow);
+}
+
+.nbrd-orange {
+    border-color: var(--norange);
+}
+
+.nbrd-purple {
+    border-color: var(--npurple);
+}
+
+.nbrd-pink {
+    border-color: var(--npink);
+}
+
+.nbrd-black {
+    border-color: var(--nblack);
+}
+
+.nbrd-gray {
+    border-color: var(--ngray);
+}
+
+.nbrd-white {
+    border-color: var(--nwhite);
+}
+
+.nbrd-teal {
+    border-color: var(--nteal);
+}
+
+/* ==========================================
+   Border Style
+========================================== */
+
+.nbrd-solid {
+    border-style: solid;
+}
+
+.nbrd-dashed {
+    border-style: dashed;
+}
+
+.nbrd-dotted {
+    border-style: dotted;
+}
+
+.nbrd-double {
+    border-style: double;
+}
