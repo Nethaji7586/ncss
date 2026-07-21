@@ -1,39 +1,16 @@
 {
-  
   "name": "@nethaji7586/ncss",
-  
   "version": "0.0.0",
-  
   "main": "src/index.js",
-  
   "files": [
-  
-    
-  "src"
-  
+    "src"
   ],
-  
   "description": "",
-  
   "scripts": {
-  
-    
-  "test": "echo \"Error: no test specified\" && exit 1"
-  
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "keywords": [],
-  
   "author": "",
-  
   "license": "ISC",
-  
-  "type": "commonjs",
-  
-  "dependencies": {
-  
-    
-  "@nethaji7586/ncss": "^1.0.0"
-  
-  }
+  "type": "commonjs"
 }
