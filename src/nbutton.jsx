@@ -1,4 +1,4 @@
-import "./Button.css";
+import "./nbutton.css";
 
 function Nbutton({ children, onClick }) {
   return (
