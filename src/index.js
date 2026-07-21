@@ -1,1 +1,1 @@
-export { default as Nbutton } from "./nbutton";
+import "./css/ncss.css";

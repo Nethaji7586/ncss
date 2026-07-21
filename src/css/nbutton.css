@@ -1,4 +1,4 @@
-.net-btn {
+.nbtn {
   background: #2563eb;
   color: white;
   padding: 12px 25px;
@@ -8,6 +8,6 @@
   transition: 0.3s;
 }
 
-.net-btn:hover {
+.nbtn:hover {
   background: #1d4ed8;
 }
