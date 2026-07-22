@@ -1,0 +1,36 @@
+.ndec-none {
+    text-decoration: none;
+}
+
+.nbtn-clear {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+.ndropdown {
+    position: relative;
+}
+
+.ndropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    min-width: 180px;
+    background: var(--nwhite);
+    padding: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+
+.ndropdown:hover .ndropdown-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.ndropdown-menu a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--nblack);
+}
