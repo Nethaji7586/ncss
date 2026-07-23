@@ -1,6 +1,6 @@
 {
   "name": "@nethaji7586/ncss",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "NCSS - A CSS Framework",
   "main": "src/index.js",
   "style": "src/css/ncss.css",
