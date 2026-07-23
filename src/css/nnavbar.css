@@ -1,12 +1,104 @@
-.ndec-none {
-    text-decoration: none;
+/* ==========================================
+   Navbar
+========================================== */
+
+.nnavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 2rem;
+    position: relative;
+    z-index: 1000;
 }
 
-.nbtn-clear {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    font: inherit;
+.nnavbar-brand {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.nnavbar-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.nnavbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nnavbar-item {
+    position: relative;
+}
+
+.nnavbar-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none !important;
+    color: inherit;
+    padding: .5rem;
+    transition: .3s ease;
+}
+/* Remove link underline */
+.nnavbar a {
+    text-decoration: none !important;
+}
+.ndec-none {
+    text-decoration: none !important;
+}
+.nnavbar-link:hover {
+    color: var(--nblue);
+}
+
+.nnavbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nnavbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nnavbar-sticky {
+    position: sticky;
+    top: 0;
+}
+
+.nnavbar-shadow {
+    box-shadow: 0 2px 12px rgba(0,0,0,.12);
+}
+
+.nnavbar-rounded {
+    border-radius: 18px;
+}
+
+.nnavbar-bordered {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.nnavbar-glass {
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,.15);
+}
+
+.nnavbar-center {
+    justify-content: center;
+}
+
+.nnavbar-space {
+    justify-content: space-between;
 }
 
 .ndropdown {
@@ -15,22 +107,75 @@
 
 .ndropdown-menu {
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 0;
-    display: none;
     min-width: 180px;
+
+    display: flex;
+    flex-direction: column;
+
     background: var(--nwhite);
-    padding: 0.5rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.15);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+
+    transition: .25s ease;
 }
 
 .ndropdown:hover .ndropdown-menu {
-    display: flex;
-    flex-direction: column;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 
 .ndropdown-menu a {
-    padding: 0.5rem;
+    padding: .75rem 1rem;
+    color: inherit;
     text-decoration: none;
-    color: var(--nblack);
+}
+
+.ndropdown-menu a:hover {
+    background: rgba(0,0,0,.05);
+}
+.nnavbar-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+
+    .nnavbar{
+        flex-wrap:wrap;
+    }
+
+    .nnavbar-toggle{
+        display:block;
+    }
+
+    .nnavbar-nav{
+        display:none;
+        width:100%;
+        flex-direction:column;
+        gap:1rem;
+        margin-top:1rem;
+    }
+
+    .nnavbar-nav.nshow{
+        display:flex;
+    }
+
+    .nnavbar-actions{
+        width:100%;
+        margin-top:1rem;
+        justify-content:flex-start;
+    }
+}
+/* Remove link underline */
+.nnavbar a {
+    text-decoration: none;
 }

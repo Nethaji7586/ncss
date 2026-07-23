@@ -1,0 +1,304 @@
+/* ==========================================
+   SHAPES
+========================================== */
+
+/* ==========================
+   BASIC SHAPES
+========================== */
+
+/* Square */
+.nsquare {
+    border-radius: 0;
+}
+
+/* Circle */
+.ncircle {
+    border-radius: 50%;
+}
+
+/* Pill */
+.npill {
+    border-radius: 9999px;
+}
+
+
+/* ==========================
+   ROUNDED SHAPES
+========================== */
+
+.nrounded-sm {
+    border-radius: 4px;
+}
+
+.nrounded {
+    border-radius: 8px;
+}
+
+.nrounded-md {
+    border-radius: 12px;
+}
+
+.nrounded-lg {
+    border-radius: 16px;
+}
+
+.nrounded-xl {
+    border-radius: 24px;
+}
+
+.nrounded-full {
+    border-radius: 9999px;
+}
+
+
+/* ==========================
+   SPECIAL SHAPES
+========================== */
+
+/* Diamond */
+.ndiamond {
+    transform: rotate(45deg);
+}
+
+
+/* Triangle Up */
+.ntriangle-up {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid currentColor;
+}
+
+
+/* Triangle Down */
+.ntriangle-down {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 60px solid currentColor;
+}
+
+
+/* Triangle Left */
+.ntriangle-left {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 60px solid currentColor;
+}
+
+
+/* Triangle Right */
+.ntriangle-right {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 60px solid currentColor;
+}
+
+
+/* ==========================
+   POLYGON SHAPES
+========================== */
+
+/* Hexagon */
+.nhexagon {
+    clip-path: polygon(
+        25% 0%,
+        75% 0%,
+        100% 50%,
+        75% 100%,
+        25% 100%,
+        0% 50%
+    );
+}
+
+/* ==========================================
+   HEART SHAPE
+========================================== */
+
+.nheart {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    transform: rotate(-45deg);
+    background: currentColor;
+    margin: 20px;
+}
+
+.nheart::before,
+.nheart::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: currentColor;
+    border-radius: 50%;
+}
+
+.nheart::before {
+    top: -30px;
+    left: 0;
+}
+
+.nheart::after {
+    top: 0;
+    left: 30px;
+}
+
+
+/* Octagon */
+.noctagon {
+    clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+}
+
+
+/* Pentagon */
+.npentagon {
+    clip-path: polygon(
+        50% 0%,
+        100% 38%,
+        82% 100%,
+        18% 100%,
+        0% 38%
+    );
+}
+
+
+/* Star */
+.nstar {
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+}
+
+
+/* Heart */
+.nheart {
+    clip-path: polygon(
+        50% 90%,
+        10% 45%,
+        20% 20%,
+        40% 15%,
+        50% 30%,
+        60% 15%,
+        80% 20%,
+        90% 45%
+    );
+}
+
+
+/* ==========================
+   CUSTOM UI SHAPES
+========================== */
+
+/* Blob */
+.nblob {
+    border-radius: 
+    42% 58% 70% 30% /
+    45% 45% 55% 55%;
+}
+
+
+/* Ellipse */
+.nellipse {
+    border-radius: 50%;
+    transform: scaleX(1.5);
+}
+
+
+/* Half Circle */
+.nhalf-circle {
+    border-radius: 100px 100px 0 0;
+}
+
+
+/* Quarter Circle */
+.nquarter-circle {
+    border-radius: 100px 0 0 0;
+}
+
+/* ==========================================
+   Step Number Circle
+========================================== */
+
+.nstep-no {
+    width: 40px;
+    height: 40px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: var(--nblue);
+    color: var(--nwhite);
+
+    font-weight: 700;
+    font-size: 1rem;
+
+    flex-shrink: 0;
+}
+
+
+/* Sizes */
+
+.nstep-no-sm {
+    width: 30px;
+    height: 30px;
+    font-size: .85rem;
+}
+
+.nstep-no-lg {
+    width: 55px;
+    height: 55px;
+    font-size: 1.25rem;
+}
+
+
+/* Colors */
+
+.nstep-no-red {
+    background: var(--nred);
+}
+
+.nstep-no-green {
+    background: var(--ngreen);
+}
+
+.nstep-no-purple {
+    background: var(--npurple);
+}
+
+.nstep-no-orange {
+    background: var(--norange);
+}
+
+.nstep-no-yellow {
+    background: var(--nyellow);
+    color: var(--nblack);
+}
+

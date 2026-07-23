@@ -1,4 +1,18 @@
-/* Direction */
+/* ==========================================
+   Display
+========================================== */
+
+.nflex {
+    display: flex;
+}
+
+.ninline-flex {
+    display: inline-flex;
+}
+
+/* ==========================================
+   Direction
+========================================== */
 
 .nx-row {
     flex-direction: row;
@@ -16,7 +30,9 @@
     flex-direction: column-reverse;
 }
 
-/* Wrap */
+/* ==========================================
+   Wrap
+========================================== */
 
 .nx-wrap {
     flex-wrap: wrap;
@@ -26,7 +42,33 @@
     flex-wrap: nowrap;
 }
 
-/* Justify Content */
+.nx-wrap-rev {
+    flex-wrap: wrap-reverse;
+}
+
+/* ==========================================
+   Flex Flow
+========================================== */
+
+.nflow-row-wrap {
+    flex-flow: row wrap;
+}
+
+.nflow-row-nowrap {
+    flex-flow: row nowrap;
+}
+
+.nflow-col-wrap {
+    flex-flow: column wrap;
+}
+
+.nflow-col-nowrap {
+    flex-flow: column nowrap;
+}
+
+/* ==========================================
+   Justify Content
+========================================== */
 
 .njust-s {
     justify-content: flex-start;
@@ -52,9 +94,11 @@
     justify-content: space-evenly;
 }
 
-/* Align Items */
+/* ==========================================
+   Align Items
+========================================== */
 
-.nitem-s {
+.nitems-s {
     align-items: flex-start;
 }
 
@@ -74,7 +118,45 @@
     align-items: baseline;
 }
 
-/* Align Self */
+/* ==========================================
+   Align Content
+========================================== */
+
+.ncontent-s {
+    align-content: flex-start;
+}
+
+.ncontent-c {
+    align-content: center;
+}
+
+.ncontent-end {
+    align-content: flex-end;
+}
+
+.ncontent-btw {
+    align-content: space-between;
+}
+
+.ncontent-around {
+    align-content: space-around;
+}
+
+.ncontent-even {
+    align-content: space-evenly;
+}
+
+.ncontent-str {
+    align-content: stretch;
+}
+
+/* ==========================================
+   Align Self
+========================================== */
+
+.nself-auto {
+    align-self: auto;
+}
 
 .nself-s {
     align-self: flex-start;
@@ -88,22 +170,118 @@
     align-self: flex-end;
 }
 
-/* Flex Grow */
+.nself-str {
+    align-self: stretch;
+}
+
+.nself-base {
+    align-self: baseline;
+}
+
+/* ==========================================
+   Flex Grow
+========================================== */
 
 .ngrow {
     flex-grow: 1;
 }
 
-.nnogrow {
+.ngrow-0 {
     flex-grow: 0;
 }
 
-/* Flex Shrink */
+/* ==========================================
+   Flex Shrink
+========================================== */
 
-.nshri {
+.nshrink {
     flex-shrink: 1;
 }
 
-.nnoshri {
+.nshrink-0 {
     flex-shrink: 0;
+}
+
+/* ==========================================
+   Flex Basis
+========================================== */
+
+.nbasis-auto {
+    flex-basis: auto;
+}
+
+.nbasis-0 {
+    flex-basis: 0;
+}
+
+.nbasis-full {
+    flex-basis: 100%;
+}
+
+.nbasis-half {
+    flex-basis: 50%;
+}
+
+.nbasis-third {
+    flex-basis: 33.333%;
+}
+
+.nbasis-quarter {
+    flex-basis: 25%;
+}
+
+/* ==========================================
+   Flex (Shortcut)
+========================================== */
+
+.nflex-1 {
+    flex: 1;
+}
+
+.nflex-auto {
+    flex: auto;
+}
+
+.nflex-none {
+    flex: none;
+}
+
+.nflex-init {
+    flex: initial;
+}
+
+/* ==========================================
+   Order
+========================================== */
+
+.norder-first {
+    order: -9999;
+}
+
+.norder-last {
+    order: 9999;
+}
+
+.norder-0 {
+    order: 0;
+}
+
+.norder-1 {
+    order: 1;
+}
+
+.norder-2 {
+    order: 2;
+}
+
+.norder-3 {
+    order: 3;
+}
+
+.norder-4 {
+    order: 4;
+}
+
+.norder-5 {
+    order: 5;
 }

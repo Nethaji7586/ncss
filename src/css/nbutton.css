@@ -1,7 +1,318 @@
+/* ==========================================
+   Base Buttons
+========================================== */
+
 .nbtn {
-  padding: 12px 25px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nbtn:hover {
+    transform: translateY(-2px);
+}
+
+.nbtn-c {
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ==========================================
+   Sizes
+========================================== */
+
+.nbtn-xs {
+    padding: 6px 12px;
+    font-size: .75rem;
+}
+
+.nbtn-sm {
+    padding: 8px 16px;
+    font-size: .875rem;
+}
+
+.nbtn-md {
+    padding: 12px 22px;
+}
+
+.nbtn-lg {
+    padding: 16px 30px;
+    font-size: 1.1rem;
+}
+
+.nbtn-xl {
+    padding: 20px 36px;
+    font-size: 1.25rem;
+}
+
+/* ==========================================
+   Width
+========================================== */
+
+.nbtn-full {
+    width: 100%;
+}
+
+.nbtn-fit {
+    width: fit-content;
+}
+
+/* ==========================================
+   Glass
+========================================== */
+
+.ntrans {
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,.25);
+    color: inherit;
+}
+
+.ntrans:hover {
+    background: rgba(255,255,255,.2);
+}
+
+/* ==========================================
+   Outline
+========================================== */
+
+.nbtn-outline {
+    background: transparent;
+    border: 2px solid currentColor;
+}
+
+.nbtn-outline:hover {
+    background: currentColor;
+}
+
+/* ==========================================
+   Ghost
+========================================== */
+
+.nbtn-ghost {
+    background: transparent;
+    border: none;
+}
+
+.nbtn-ghost:hover {
+    background: rgba(0,0,0,.08);
+}
+
+/* ==========================================
+   Soft
+========================================== */
+
+.nbtn-soft {
+    background: rgba(63,34,236,.12);
+    color: var(--nblue);
+}
+
+/* ==========================================
+   Gradient
+========================================== */
+
+.nbtn-gradient {
+    background: linear-gradient(135deg,var(--npink),var(--npurple));
+    color: white;
+}
+
+/* ==========================================
+   Neumorphism
+========================================== */
+
+.nbtn-neu {
+    background: #e0e0e0;
+    box-shadow: 8px 8px 16px #bebebe,
+                -8px -8px 16px #ffffff;
+}
+
+.nbtn-neu:active {
+    box-shadow: inset 4px 4px 10px #bebebe,
+                inset -4px -4px 10px #ffffff;
+}
+
+/* ==========================================
+   3D
+========================================== */
+
+/* ===========================
+   3D Button
+=========================== */
+
+.nbtn-3d {
+    position: relative;
+    box-shadow: 0 6px 0 rgba(0,0,0,.25);
+    transition: .2s ease;
+}
+
+.nbtn-3d:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 0 rgba(0,0,0,.25);
+}
+
+.nbtn-3d:active {
+    transform: translateY(6px);
+    box-shadow: none;
+}
+
+/* ==========================================
+   Shadow
+========================================== */
+
+.nbtn-shadow {
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+/* ==========================================
+   Glow
+========================================== */
+
+/* ==========================================
+   Glow Button
+========================================== */
+
+.nbtn-glow {
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(63, 34, 236, 0.35);
+}
+
+.nbtn-glow:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 12px rgba(63, 34, 236, 0.5),
+    0 0 24px rgba(63, 34, 236, 0.4),
+    0 0 40px rgba(63, 34, 236, 0.3);
+}
+/* ==========================================
+   Lift
+========================================== */
+
+.nbtn-lift:hover {
+    transform: translateY(-5px);
+}
+
+/* ==========================================
+   Scale
+========================================== */
+
+.nbtn-scale:hover {
+    transform: scale(1.06);
+}
+
+/* ==========================================
+   Rotate
+========================================== */
+
+.nbtn-rotate:hover {
+    transform: rotate(-2deg);
+}
+
+/* ==========================================
+   Pulse
+========================================== */
+
+.nbtn-pulse:hover {
+    animation: npulse .8s infinite;
+}
+
+@keyframes npulse {
+    50% {
+        transform: scale(1.08);
+    }
+}
+
+/* ==========================================
+   Shake
+========================================== */
+
+.nbtn-shake:hover {
+    animation: nshake .4s;
+}
+
+@keyframes nshake {
+    25% { transform: translateX(-3px); }
+    50% { transform: translateX(3px); }
+    75% { transform: translateX(-3px); }
+}
+
+/* ==========================================
+   Loading
+========================================== */
+
+.nbtn-loading {
+    pointer-events: none;
+    opacity: .7;
+    cursor: wait;
+}
+
+/* ==========================================
+   Disabled
+========================================== */
+
+.nbtn-disabled,
+.nbtn:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+/* ==========================================
+   Icon Button
+========================================== */
+
+.nbtn-icon {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+/* ==========================================
+   Floating Action Button
+========================================== */
+
+.nbtn-fab {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.3);
+}
+
+
+.nbtn-link {
+    background: none;
+    border: none;
+    color: var(--nblue);
+    text-decoration: underline;
+}
+
+
+.nbtn-upper {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.nbtn-ripple {
+    overflow: hidden;
+    position: relative;
 }

@@ -1,0 +1,84 @@
+/* ===========================
+   Center Utilities
+=========================== */
+
+/* Text Center */
+.ncenter {
+    text-align: center;
+}
+
+/* Flex Center */
+.ncenter-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Horizontal Center */
+.ncenter-x {
+    display: flex;
+    justify-content: center;
+}
+
+/* Vertical Center */
+.ncenter-y {
+    display: flex;
+    align-items: center;
+}
+
+/* Absolute Center */
+.ncenter-abs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Full Page Center */
+.ncenter-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inline Center */
+.ncenter-inline {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ===========================
+   Container Center
+=========================== */
+
+.ncenter > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ===========================
+   Step Center
+=========================== */
+
+.nstep {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: fit-content;
+}
+
+
+.nstep-no {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+}

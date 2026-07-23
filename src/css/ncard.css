@@ -1,0 +1,111 @@
+.ncard {
+  
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.ncard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* ==========================
+   Base Card
+========================== */
+
+.ncard {
+  border-radius: 20px;
+  padding: 24px;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.ncard:hover {
+  transform: translateY(-6px);
+}
+
+/* ==========================
+   Card Variants
+========================== */
+
+/* Default Shadow */
+.ncard-shadow {
+  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+}
+
+.ncard-shadow:hover {
+  box-shadow: 0 12px 24px rgba(0,0,0,.18);
+}
+
+/* Outline */
+.ncard-outline {
+  border: 2px solid #e5e7eb;
+}
+
+/* Glass */
+.ncard-glass {
+  background: rgba(255,255,255,.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,.2);
+}
+
+/* Filled */
+.ncard-fill {
+  background: #f8f9fa;
+}
+
+/* Gradient */
+.ncard-gradient {
+  background: linear-gradient(135deg, #3F22EC, #55D6FF);
+  color: white;
+}
+
+/* Border Left */
+.ncard-left {
+  border-left: 6px solid #3F22EC;
+}
+
+/* Border Top */
+.ncard-top {
+  border-top: 6px solid #03E29D;
+}
+
+/* Rounded */
+.ncard-round {
+  border-radius: 40px;
+}
+
+/* Flat */
+.ncard-flat {
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+
+/* Glow */
+.ncard-glow {
+  box-shadow: 0 0 15px rgba(63,34,236,.3);
+}
+
+.ncard-glow:hover {
+  box-shadow: 0 0 30px rgba(63,34,236,.6);
+}
+
+/* Floating */
+.ncard-float {
+  box-shadow: 0 8px 20px rgba(0,0,0,.12);
+}
+
+.ncard-float:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+/* Neumorphism */
+.ncard-neu {
+  background: #f3f4f6;
+  box-shadow: 8px 8px 16px #d1d5db,
+              -8px -8px 16px #ffffff;
+}

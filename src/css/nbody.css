@@ -1,0 +1,269 @@
+/* ==========================================
+   NCSS Body Utilities
+   ========================================== */
+
+/* Reset */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* ==========================================
+   Layout
+   ========================================== */
+
+.nbody-full {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.nbody-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.nbody-column {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nbody-row {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.nbody-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nbody-nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* ==========================================
+   Sticky Footer
+   ========================================== */
+
+.nbody-footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nbody-footer main {
+  flex: 1;
+}
+
+/* ==========================================
+   Themes
+   ========================================== */
+
+.nbody-light {
+  background: #ffffff;
+  color: #111827;
+}
+
+.nbody-dark {
+  background: #111827;
+  color: #ffffff;
+}
+
+.nbody-black {
+  background: #000;
+  color: #fff;
+}
+
+/* ==========================================
+   Background Utilities
+   ========================================== */
+
+.nbody-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nbody-contain {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nbody-fixed {
+  background-attachment: fixed;
+}
+
+.nbody-gradient {
+  background: linear-gradient(135deg, #3F22EC, #55D6FF);
+  color: white;
+}
+
+.nbody-gradient-2 {
+  background: linear-gradient(135deg, #03E29D, #3F22EC);
+  color: white;
+}
+
+.nbody-gradient-3 {
+  background: linear-gradient(135deg, #ff6b6b, #ffd93d);
+  color: white;
+}
+
+/* ==========================================
+   Animated Background
+   ========================================== */
+
+.nbody-animated {
+  background: linear-gradient(
+    -45deg,
+    #3F22EC,
+    #55D6FF,
+    #03E29D,
+    #F45BDE
+  );
+  background-size: 400% 400%;
+  animation: ngradient 10s ease infinite;
+  color: white;
+}
+
+@keyframes ngradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ==========================================
+   Glass Effect
+   ========================================== */
+
+.nbody-glass {
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+/* ==========================================
+   Pattern Backgrounds
+   ========================================== */
+
+.nbody-grid {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, .08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, .08) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.nbody-dots {
+  background-image: radial-gradient(#999 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* ==========================================
+   Scroll Utilities
+   ========================================== */
+
+.nbody-no-scroll {
+  overflow: hidden;
+}
+
+.nbody-scroll-y {
+  overflow-y: auto;
+}
+
+.nbody-scroll-x {
+  overflow-x: auto;
+}
+
+.nbody-smooth {
+  scroll-behavior: smooth;
+}
+
+/* ==========================================
+   Scrollbar
+   ========================================== */
+
+.nbody-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.nbody-scrollbar::-webkit-scrollbar-thumb {
+  background: #3F22EC;
+  border-radius: 20px;
+}
+
+.nbody-scrollbar::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+/* ==========================================
+   Width
+   ========================================== */
+
+.nbody-fluid {
+  width: 100%;
+}
+
+.nbody-container {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* ==========================================
+   Selection
+   ========================================== */
+
+.nbody-select::selection {
+  background: #3F22EC;
+  color: white;
+}
+
+/* ==========================================
+   Overflow
+   ========================================== */
+
+.nbody-hidden {
+  overflow: hidden;
+}
+
+.nbody-visible {
+  overflow: visible;
+}
+
+/* ==========================================
+   Text Alignment
+   ========================================== */
+
+.nbody-text-center {
+  text-align: center;
+}
+
+.nbody-text-left {
+  text-align: left;
+}
+
+.nbody-text-right {
+  text-align: right;
+}

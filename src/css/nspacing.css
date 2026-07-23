@@ -1,124 +1,176 @@
-/* ===========================
-   Margin - All
-=========================== */
+
 
 .nm-0 { margin: 0; }
-.nm-1 { margin: 0.25rem; }
-.nm-2 { margin: 0.5rem; }
+.nm-1 { margin: .25rem; }
+.nm-2 { margin: .5rem; }
 .nm-3 { margin: 1rem; }
 .nm-4 { margin: 1.5rem; }
-.nm-5 { margin: 3rem; }
+.nm-5 { margin: 2rem; }
+.nm-6 { margin: 3rem; }
 
-/* ===========================
-   Margin Top
-=========================== */
+/* Margin Top */
 
 .nmt-0 { margin-top: 0; }
-.nmt-1 { margin-top: 0.25rem; }
-.nmt-2 { margin-top: 0.5rem; }
+.nmt-1 { margin-top: .25rem; }
+.nmt-2 { margin-top: .5rem; }
 .nmt-3 { margin-top: 1rem; }
 .nmt-4 { margin-top: 1.5rem; }
-.nmt-5 { margin-top: 3rem; }
+.nmt-5 { margin-top: 2rem; }
+.nmt-6 { margin-top: 3rem; }
 
-/* ===========================
-   Margin Bottom
-=========================== */
+/* Margin Bottom */
 
 .nmb-0 { margin-bottom: 0; }
-.nmb-1 { margin-bottom: 0.25rem; }
-.nmb-2 { margin-bottom: 0.5rem; }
+.nmb-1 { margin-bottom: .25rem; }
+.nmb-2 { margin-bottom: .5rem; }
 .nmb-3 { margin-bottom: 1rem; }
 .nmb-4 { margin-bottom: 1.5rem; }
-.nmb-5 { margin-bottom: 3rem; }
+.nmb-5 { margin-bottom: 2rem; }
+.nmb-6 { margin-bottom: 3rem; }
 
-/* ===========================
-   Margin Left
-=========================== */
+/* Margin Left */
 
 .nml-0 { margin-left: 0; }
-.nml-1 { margin-left: 0.25rem; }
-.nml-2 { margin-left: 0.5rem; }
+.nml-1 { margin-left: .25rem; }
+.nml-2 { margin-left: .5rem; }
 .nml-3 { margin-left: 1rem; }
 .nml-4 { margin-left: 1.5rem; }
-.nml-5 { margin-left: 3rem; }
+.nml-5 { margin-left: 2rem; }
+.nml-6 { margin-left: 3rem; }
 
-/* ===========================
-   Margin Right
-=========================== */
+/* Margin Right */
 
 .nmr-0 { margin-right: 0; }
-.nmr-1 { margin-right: 0.25rem; }
-.nmr-2 { margin-right: 0.5rem; }
+.nmr-1 { margin-right: .25rem; }
+.nmr-2 { margin-right: .5rem; }
 .nmr-3 { margin-right: 1rem; }
 .nmr-4 { margin-right: 1.5rem; }
-.nmr-5 { margin-right: 3rem; }
+.nmr-5 { margin-right: 2rem; }
+.nmr-6 { margin-right: 3rem; }
 
-/* ===========================
-   Padding - All
-=========================== */
+/* Margin X */
+
+.nmx-0 { margin-inline: 0; }
+.nmx-1 { margin-inline: .25rem; }
+.nmx-2 { margin-inline: .5rem; }
+.nmx-3 { margin-inline: 1rem; }
+.nmx-4 { margin-inline: 1.5rem; }
+.nmx-5 { margin-inline: 2rem; }
+.nmx-6 { margin-inline: 3rem; }
+
+/* Margin Y */
+
+.nmy-0 { margin-block: 0; }
+.nmy-1 { margin-block: .25rem; }
+.nmy-2 { margin-block: .5rem; }
+.nmy-3 { margin-block: 1rem; }
+.nmy-4 { margin-block: 1.5rem; }
+.nmy-5 { margin-block: 2rem; }
+.nmy-6 { margin-block: 3rem; }
+
+/* Auto Margin */
+
+.nm-auto { margin: auto; }
+.nmx-auto { margin-inline: auto; }
+.nml-auto { margin-left: auto; }
+.nmr-auto { margin-right: auto; }
+
+/* ==========================
+   Padding
+========================== */
 
 .np-0 { padding: 0; }
-.np-1 { padding: 0.25rem; }
-.np-2 { padding: 0.5rem; }
+.np-1 { padding: .25rem; }
+.np-2 { padding: .5rem; }
 .np-3 { padding: 1rem; }
 .np-4 { padding: 1.5rem; }
-.np-5 { padding: 3rem; }
+.np-5 { padding: 2rem; }
+.np-6 { padding: 3rem; }
 
-/* ===========================
-   Padding Top
-=========================== */
+/* Padding Top */
 
 .npt-0 { padding-top: 0; }
-.npt-1 { padding-top: 0.25rem; }
-.npt-2 { padding-top: 0.5rem; }
+.npt-1 { padding-top: .25rem; }
+.npt-2 { padding-top: .5rem; }
 .npt-3 { padding-top: 1rem; }
 .npt-4 { padding-top: 1.5rem; }
-.npt-5 { padding-top: 3rem; }
+.npt-5 { padding-top: 2rem; }
+.npt-6 { padding-top: 3rem; }
 
-/* ===========================
-   Padding Bottom
-=========================== */
+/* Padding Bottom */
 
 .npb-0 { padding-bottom: 0; }
-.npb-1 { padding-bottom: 0.25rem; }
-.npb-2 { padding-bottom: 0.5rem; }
+.npb-1 { padding-bottom: .25rem; }
+.npb-2 { padding-bottom: .5rem; }
 .npb-3 { padding-bottom: 1rem; }
 .npb-4 { padding-bottom: 1.5rem; }
-.npb-5 { padding-bottom: 3rem; }
+.npb-5 { padding-bottom: 2rem; }
+.npb-6 { padding-bottom: 3rem; }
 
-/* ===========================
-   Padding Left
-=========================== */
+/* Padding Left */
 
 .npl-0 { padding-left: 0; }
-.npl-1 { padding-left: 0.25rem; }
-.npl-2 { padding-left: 0.5rem; }
+.npl-1 { padding-left: .25rem; }
+.npl-2 { padding-left: .5rem; }
 .npl-3 { padding-left: 1rem; }
 .npl-4 { padding-left: 1.5rem; }
-.npl-5 { padding-left: 3rem; }
+.npl-5 { padding-left: 2rem; }
+.npl-6 { padding-left: 3rem; }
 
-/* ===========================
-   Padding Right
-=========================== */
+/* Padding Right */
 
 .npr-0 { padding-right: 0; }
-.npr-1 { padding-right: 0.25rem; }
-.npr-2 { padding-right: 0.5rem; }
+.npr-1 { padding-right: .25rem; }
+.npr-2 { padding-right: .5rem; }
 .npr-3 { padding-right: 1rem; }
 .npr-4 { padding-right: 1.5rem; }
-.npr-5 { padding-right: 3rem; }
+.npr-5 { padding-right: 2rem; }
+.npr-6 { padding-right: 3rem; }
 
+/* Padding X */
 
+.npx-0 { padding-inline: 0; }
+.npx-1 { padding-inline: .25rem; }
+.npx-2 { padding-inline: .5rem; }
+.npx-3 { padding-inline: 1rem; }
+.npx-4 { padding-inline: 1.5rem; }
+.npx-5 { padding-inline: 2rem; }
+.npx-6 { padding-inline: 3rem; }
 
-/* Gap */
+/* Padding Y */
+
+.npy-0 { padding-block: 0; }
+.npy-1 { padding-block: .25rem; }
+.npy-2 { padding-block: .5rem; }
+.npy-3 { padding-block: 1rem; }
+.npy-4 { padding-block: 1.5rem; }
+.npy-5 { padding-block: 2rem; }
+.npy-6 { padding-block: 3rem; }
+
+/* ==========================
+   Gap
+========================== */
+
 .ngap-0 { gap: 0; }
-.ngap-1 { gap: 0.25rem; }
-.ngap-2 { gap: 0.5rem; }
+.ngap-1 { gap: .25rem; }
+.ngap-2 { gap: .5rem; }
 .ngap-3 { gap: 1rem; }
 .ngap-4 { gap: 1.5rem; }
-.ngap-5 { gap: 3rem; }
+.ngap-5 { gap: 2rem; }
+.ngap-6 { gap: 3rem; }
 
-.nm-auto {
-    margin-left: auto;
-    margin-right: auto;
-}
+.ngap-x-0 { column-gap: 0; }
+.ngap-x-1 { column-gap: .25rem; }
+.ngap-x-2 { column-gap: .5rem; }
+.ngap-x-3 { column-gap: 1rem; }
+.ngap-x-4 { column-gap: 1.5rem; }
+.ngap-x-5 { column-gap: 2rem; }
+.ngap-x-6 { column-gap: 3rem; }
+
+.ngap-y-0 { row-gap: 0; }
+.ngap-y-1 { row-gap: .25rem; }
+.ngap-y-2 { row-gap: .5rem; }
+.ngap-y-3 { row-gap: 1rem; }
+.ngap-y-4 { row-gap: 1.5rem; }
+.ngap-y-5 { row-gap: 2rem; }
+.ngap-y-6 { row-gap: 3rem; }

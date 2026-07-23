@@ -1,24 +1,26 @@
-/* ===========================
-   Width
-=========================== */
+/* ==========================================
+   WIDTH
+========================================== */
 
 .nw-a { width: auto; }
+
 .nw-25 { width: 25%; }
 .nw-50 { width: 50%; }
 .nw-75 { width: 75%; }
 .nw-100 { width: 100%; }
 
 .nw-fit { width: fit-content; }
-.nw-max { width: max-content; }
 .nw-min { width: min-content; }
+.nw-max { width: max-content; }
 
 .nvw-100 { width: 100vw; }
 
-/* ===========================
-   Height
-=========================== */
+/* ==========================================
+   HEIGHT
+========================================== */
 
 .nh-a { height: auto; }
+
 .nh-25 { height: 25%; }
 .nh-50 { height: 50%; }
 .nh-75 { height: 75%; }
@@ -27,21 +29,187 @@
 .nvh-100 { height: 100vh; }
 
 .nh-fit { height: fit-content; }
-.nh-max { height: max-content; }
 .nh-min { height: min-content; }
+.nh-max { height: max-content; }
 
-/* ===========================
-   Max Width
-=========================== */
+/* ==========================================
+   MIN WIDTH
+========================================== */
 
-.nmaxw-100 {
-    max-width: 100%;
+.nminw-0 { min-width: 0; }
+.nminw-100 { min-width: 100%; }
+
+/* ==========================================
+   MAX WIDTH
+========================================== */
+
+.nmaxw-100 { max-width: 100%; }
+
+/* ==========================================
+   MIN HEIGHT
+========================================== */
+
+.nminh-0 { min-height: 0; }
+.nminh-100 { min-height: 100%; }
+.nminvh-100 { min-height: 100vh; }
+
+/* ==========================================
+   MAX HEIGHT
+========================================== */
+
+.nmaxh-100 { max-height: 100%; }
+
+/* ==========================================
+   SIZE (Width + Height)
+========================================== */
+
+.ns-0 {
+    width: 0;
+    height: 0;
 }
 
-/* ===========================
-   Max Height
-=========================== */
+.ns-4 {
+    width: 4px;
+    height: 4px;
+}
 
-.nmaxh-100 {
-    max-height: 100%;
+.ns-8 {
+    width: 8px;
+    height: 8px;
+}
+
+.ns-12 {
+    width: 12px;
+    height: 12px;
+}
+
+.ns-16 {
+    width: 16px;
+    height: 16px;
+}
+
+.ns-20 {
+    width: 20px;
+    height: 20px;
+}
+
+.ns-24 {
+    width: 24px;
+    height: 24px;
+}
+
+.ns-28 {
+    width: 28px;
+    height: 28px;
+}
+
+.ns-32 {
+    width: 32px;
+    height: 32px;
+}
+
+.ns-36 {
+    width: 36px;
+    height: 36px;
+}
+
+.ns-40 {
+    width: 40px;
+    height: 40px;
+}
+
+.ns-48 {
+    width: 48px;
+    height: 48px;
+}
+
+.ns-56 {
+    width: 56px;
+    height: 56px;
+}
+
+.ns-64 {
+    width: 64px;
+    height: 64px;
+}
+
+.ns-72 {
+    width: 72px;
+    height: 72px;
+}
+
+.ns-80 {
+    width: 80px;
+    height: 80px;
+}
+
+.ns-96 {
+    width: 96px;
+    height: 96px;
+}
+
+.ns-100 {
+    width: 100px;
+    height: 100px;
+}
+
+.ns-120 {
+    width: 120px;
+    height: 120px;
+}
+
+.ns-150 {
+    width: 150px;
+    height: 150px;
+}
+
+.ns-200 {
+    width: 200px;
+    height: 200px;
+}
+
+.ns-full {
+    width: 100%;
+    height: 100%;
+}
+
+.ns-screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ==========================================
+   BORDER RADIUS HELPERS
+========================================== */
+
+.ncircle {
+    border-radius: 50%;
+}
+
+.nrounded {
+    border-radius: 8px;
+}
+
+.nrounded-lg {
+    border-radius: 12px;
+}
+
+.nrounded-xl {
+    border-radius: 16px;
+}
+
+.nrounded-full {
+    border-radius: 9999px;
+}
+
+/* ==========================================
+   EXAMPLE COMPONENT
+========================================== */
+
+.nstep-no {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
 }

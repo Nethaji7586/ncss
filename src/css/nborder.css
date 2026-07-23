@@ -11,23 +11,35 @@
 }
 
 .nbrd-1 {
-    border: 1px solid;
+    border-width: 1px;
 }
 
 .nbrd-2 {
-    border: 2px solid;
+    border-width: 2px;
 }
 
 .nbrd-3 {
-    border: 3px solid;
+    border-width: 3px;
 }
 
 .nbrd-4 {
-    border: 4px solid;
+    border-width: 4px;
 }
 
 .nbrd-5 {
-    border: 5px solid;
+    border-width: 5px;
+}
+
+.nbrd-6 {
+    border-width: 6px;
+}
+
+.nbrd-8 {
+    border-width: 8px;
+}
+
+.nbrd-10 {
+    border-width: 10px;
 }
 
 /* ==========================================
@@ -48,6 +60,128 @@
 
 .nbrd-right {
     border-right: 1px solid;
+}
+
+.nbrd-x {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.nbrd-y {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+/* ==========================================
+   Border Style
+========================================== */
+
+.nbrd-solid {
+    border-style: solid;
+}
+
+.nbrd-dashed {
+    border-style: dashed;
+}
+
+.nbrd-dotted {
+    border-style: dotted;
+}
+
+.nbrd-double {
+    border-style: double;
+}
+
+.nbrd-groove {
+    border-style: groove;
+}
+
+.nbrd-ridge {
+    border-style: ridge;
+}
+
+.nbrd-inset {
+    border-style: inset;
+}
+
+.nbrd-outset {
+    border-style: outset;
+}
+
+.nbrd-hidden {
+    border-style: hidden;
+}
+
+/* ==========================================
+   Border Radius
+========================================== */
+
+.nrad-0 {
+    border-radius: 0;
+}
+
+.nrad-1 {
+    border-radius: 4px;
+}
+
+.nrad-2 {
+    border-radius: 8px;
+}
+
+.nrad-3 {
+    border-radius: 12px;
+}
+
+.nrad-4 {
+    border-radius: 16px;
+}
+
+.nrad-5 {
+    border-radius: 20px;
+}
+
+.nrad-pill {
+    border-radius: 999px;
+}
+
+.nrad-circle {
+    border-radius: 50%;
+}
+
+/* ==========================================
+   Individual Radius
+========================================== */
+
+.nrad-t {
+    border-radius: 12px 12px 0 0;
+}
+
+.nrad-b {
+    border-radius: 0 0 12px 12px;
+}
+
+.nrad-l {
+    border-radius: 12px 0 0 12px;
+}
+
+.nrad-r {
+    border-radius: 0 12px 12px 0;
+}
+
+.nrad-tl {
+    border-top-left-radius: 12px;
+}
+
+.nrad-tr {
+    border-top-right-radius: 12px;
+}
+
+.nrad-bl {
+    border-bottom-left-radius: 12px;
+}
+
+.nrad-br {
+    border-bottom-right-radius: 12px;
 }
 
 /* ==========================================
@@ -102,22 +236,72 @@
     border-color: var(--nteal);
 }
 
+.nbrd-transparent {
+    border-color: transparent;
+}
+
 /* ==========================================
-   Border Style
+   Border Opacity
 ========================================== */
 
-.nbrd-solid {
-    border-style: solid;
+.nbrd-opacity-25 {
+    opacity: .25;
 }
 
-.nbrd-dashed {
-    border-style: dashed;
+.nbrd-opacity-50 {
+    opacity: .5;
 }
 
-.nbrd-dotted {
-    border-style: dotted;
+.nbrd-opacity-75 {
+    opacity: .75;
 }
 
-.nbrd-double {
-    border-style: double;
+.nbrd-opacity-100 {
+    opacity: 1;
+}
+
+/* ==========================================
+   Border Hover
+========================================== */
+
+.nbrd-hover:hover {
+    border-color: var(--nblue);
+    transition: .3s ease;
+}
+
+.nbrd-grow:hover {
+    transform: scale(1.02);
+    transition: .3s ease;
+}
+
+.nbrd-glow:hover {
+    box-shadow: 0 0 12px var(--nblue);
+}
+
+/* ==========================================
+   Special Borders
+========================================== */
+
+.nbrd-glass {
+    border: 1px solid rgba(255,255,255,.2);
+}
+
+.nbrd-shadow {
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+}
+
+.nbrd-none {
+    border: none;
+}
+
+.nbrd-outline {
+    outline: 2px solid var(--nblue);
+}
+
+.nbrd-outline-red {
+    outline: 2px solid var(--nred);
+}
+
+.nbrd-outline-green {
+    outline: 2px solid var(--ngreen);
 }
